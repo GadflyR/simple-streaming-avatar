@@ -5,7 +5,7 @@ import cv2
 import threading
 import speech_recognition as sr
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="sk-***")
 messages = [{"role": "system", "content": "You are Q-bot. Remember to keep your answer short."}]
 
 space = cv2.VideoCapture('video/space.mp4')
